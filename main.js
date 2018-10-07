@@ -87,7 +87,6 @@ function findHeroes(){
   }
   
   var sortedFilteredHeroes = filteredHeroes.sort( (a,b)=> b.matchCount - a.matchCount);
-  debugger;
   displayHeroes(sortedFilteredHeroes)
   console.log('filtered: ',sortedFilteredHeroes);
 }
